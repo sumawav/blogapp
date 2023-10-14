@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './category.module.css';
+import styles from './categorylist.module.css';
 
-const Category = () => {
-    return <div className={styles.container}>Category</div>;
+const Categorylist = () => {
+    return <div className={styles.container}>Categorylist</div>;
 };
 
-export default Category;
+export default Categorylist;
