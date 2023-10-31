@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './navbar.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import Themetoggle from '../themetoggle/Themetoggle';
+import Themetoggle from '../themetoggle/ThemeToggle';
 import Authlinks from '../authlinks/Authlinks';
 
 const Navbar = () => {
