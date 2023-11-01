@@ -3,7 +3,7 @@ import styles from './navbar.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Themetoggle from '../themetoggle/ThemeToggle';
-import Authlinks from '../authlinks/Authlinks';
+import Authlinks from '../AuthLinks/AuthLinks';
 
 const Navbar = () => {
     return (
@@ -32,9 +32,15 @@ const Navbar = () => {
             <div className={styles.logo}>sumablog</div>
             <div className={styles.links}>
                 <Themetoggle />
-                <Link href="\">Homepage</Link>
-                <Link href="\">Contact</Link>
-                <Link href="\">About</Link>
+                <Link href="\" className={styles.link}>
+                    Homepage
+                </Link>
+                <Link href="\" className={styles.link}>
+                    Contact
+                </Link>
+                <Link href="\" className={styles.link}>
+                    About
+                </Link>
                 <Authlinks />
             </div>
         </div>
