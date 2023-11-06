@@ -1,6 +1,6 @@
 import styles from './homepage.module.css';
 import Featured from '@/components/featured/Featured';
-import Categorylist from '@/components/categorylist/Categorylist';
+import Categorylist from '@/components/categorylist/CategoryList';
 import Cardlist from '@/components/cardlist/Cardlist';
 import Menu from '@/components/menu/Menu';
 
