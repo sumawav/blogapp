@@ -1,15 +1,16 @@
 import React from 'react';
 import styles from './featured.module.css';
+import Image from 'next/image';
 
 const Featured = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>
-                <b>YO WHADDUP</b> Give me money
+                <b className={styles.bold}>YO WHADDUP</b> Give me money
             </h1>
             <div className={styles.post}>
                 <div className={styles.imgContainer}>
-                    <image src="/p1.jpeg" alt="" fill />
+                    <Image src="/p1.png" alt="" fill className={styles.image} />
                 </div>
                 <div className={styles.textContainer}>
                     <h1 className={styles.postTitle}>
