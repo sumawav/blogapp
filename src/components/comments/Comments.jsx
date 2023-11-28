@@ -3,7 +3,7 @@ import styles from './comments.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
-function Comments() {
+const Comments = () => {
     const status = 'authenticated';
     return (
         <div className={styles.container}>
@@ -103,6 +103,6 @@ function Comments() {
             </div>
         </div>
     );
-}
+};
 
 export default Comments;

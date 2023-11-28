@@ -4,7 +4,7 @@ import Menu from '@/components/menu/Menu';
 import Image from 'next/image';
 import Comments from '@/components/comments/Comments';
 
-function SinglePage() {
+const SinglePage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.infoContainer}>
@@ -80,6 +80,6 @@ function SinglePage() {
             </div>
         </div>
     );
-}
+};
 
 export default SinglePage;

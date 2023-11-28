@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './loginPage.module.css';
 
-function LoginPage() {
+const LoginPage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
@@ -11,6 +11,6 @@ function LoginPage() {
             </div>
         </div>
     );
-}
+};
 
 export default LoginPage;
