@@ -6,10 +6,10 @@ import { useState } from 'react';
 const Authlinks = () => {
     const [open, setOpen] = useState(false);
 
-    const status = 'notauthenticated'; //TEMP
+    const status = 'authenticated'; //TEMP
     return (
         <>
-            {status === 'authenticated' ? (
+            {status === 'notauthenticated' ? (
                 <Link href="/login" className={styles.link}>
                     Login
                 </Link>
